@@ -19,7 +19,6 @@
 	"keywords": [
 		"Jest",
 		"demos",
-		"react",
 		"test"
 	],
 	"author": "biu",
@@ -29,15 +28,10 @@
 	},
 	"homepage": "https://github.com/hezhii/jest-demos#readme",
 	"devDependencies": {
-		"babel-core": "^6.26.3",
-		"babel-jest": "^23.6.0",
-		"babel-preset-env": "^1.7.0",
-		"babel-preset-react": "^6.24.1",
+		"@babel/core": "^7.14.3",
+		"@babel/preset-env": "^7.14.4",
+		"babel-jest": "^27.0.2",
 		"jest": "^27.0.3",
-		"jest-github-reporter": "^1.0.2",
-		"react-test-renderer": "^16.5.2"
-	},
-	"dependencies": {
-		"react": "^16.5.2"
+		"jest-github-reporter": "^1.0.2"
 	}
 }
