@@ -2,8 +2,7 @@
 	"name": "jest-demos",
 	"jest": {
 		"reporters": [
-			"default",
-			"jest-github-reporter"
+			"default"
 		]
 	},
 	"version": "1.0.0",
@@ -34,7 +33,6 @@
 		"babel-preset-env": "^1.7.0",
 		"babel-preset-react": "^6.24.1",
 		"jest": "^23.6.0",
-		"jest-github-reporter": "^1.0.2",
 		"react-test-renderer": "^16.5.2"
 	},
 	"dependencies": {
