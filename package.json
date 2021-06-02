@@ -1,36 +1,43 @@
 {
-  "name": "jest-demos",
-  "version": "1.0.0",
-  "description": "A collection of simple demos of Jest",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hezhii/jest-demos.git"
-  },
-  "keywords": [
-    "Jest",
-    "demos",
-    "react",
-    "test"
-  ],
-  "author": "biu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hezhii/jest-demos/issues"
-  },
-  "homepage": "https://github.com/hezhii/jest-demos#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-jest": "^23.6.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "jest": "^23.6.0",
-    "react-test-renderer": "^16.5.2"
-  },
-  "dependencies": {
-    "react": "^16.5.2"
-  }
+	"name": "jest-demos",
+	"jest": {
+		"reporters": [
+			"default",
+			"jest-github-reporter"
+		]
+	},
+	"version": "1.0.0",
+	"description": "A collection of simple demos of Jest",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --testLocationInResults"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hezhii/jest-demos.git"
+	},
+	"keywords": [
+		"Jest",
+		"demos",
+		"react",
+		"test"
+	],
+	"author": "biu",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/hezhii/jest-demos/issues"
+	},
+	"homepage": "https://github.com/hezhii/jest-demos#readme",
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-jest": "^23.6.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"jest": "^23.6.0",
+		"jest-github-reporter": "^1.0.2",
+		"react-test-renderer": "^16.5.2"
+	},
+	"dependencies": {
+		"react": "^16.5.2"
+	}
 }
